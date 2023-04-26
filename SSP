@@ -1,0 +1,3565 @@
+{
+    "system-security-plan": {
+        "uuid": "38844221-f3fa-4a34-bbf9-da855a114df6",
+        "metadata": {
+            "title": "Juice Shop SSP",
+            "published": "2023-04-20T14:58:59+02:00",
+            "last-modified": "2023-04-20T14:58:59+02:00",
+            "links": [
+                {
+                    "href": "nullapi/files/getfile/b51b7ba8-9c88-4dba-b9ce-d41421d92d70",
+                    "media-type": "attachment",
+                    "text": "TAILORED-SSP-Export-1.docx"
+                }
+            ],
+            "revisions": [
+                {
+                    "title": "Version 1",
+                    "version": "1",
+                    "oscal-version": "1.0.4",
+                    "last-modified": "2023-04-20T14:59:00+02:00",
+                    "remarks": "MD5 Hash: 62EE109517204CF01364EA10FE78DA67"
+                }
+            ],
+            "version": "fedramp1.1.0-oscal1.0.0",
+            "oscal-version": "1.0.4"
+        },
+        "import-profile": {
+            "href": "nullprofiles/form/1"
+        },
+        "system-characteristics": {
+            "system-ids": [
+                {
+                    "id": "1",
+                    "identifier-type": "nullsecurityplans/form/1"
+                },
+                {
+                    "id": "38844221-f3fa-4a34-bbf9-da855a114df6",
+                    "identifier-type": "Regscale UUID"
+                },
+                {
+                    "id": "",
+                    "identifier-type": "https://fedramp.gov"
+                }
+            ],
+            "props": [
+                {
+                    "name": "id",
+                    "value": "1"
+                },
+                {
+                    "name": "isPublic",
+                    "value": "true"
+                },
+                {
+                    "name": "uuid",
+                    "value": "38844221-f3fa-4a34-bbf9-da855a114df6"
+                },
+                {
+                    "name": "systemName",
+                    "value": "Juice Shop SSP"
+                },
+                {
+                    "name": "planInformationSystemSecurityOfficer",
+                    "value": "[object Object]"
+                },
+                {
+                    "name": "planInformationSystemSecurityOfficerId",
+                    "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                },
+                {
+                    "name": "planAuthorizingOfficial",
+                    "value": "[object Object]"
+                },
+                {
+                    "name": "planAuthorizingOfficialId",
+                    "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                },
+                {
+                    "name": "systemOwner",
+                    "value": "[object Object]"
+                },
+                {
+                    "name": "systemOwnerId",
+                    "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                },
+                {
+                    "name": "confidentiality",
+                    "value": "Moderate"
+                },
+                {
+                    "name": "integrity",
+                    "value": "Moderate"
+                },
+                {
+                    "name": "availability",
+                    "value": "Moderate"
+                },
+                {
+                    "name": "status",
+                    "value": "Operational"
+                },
+                {
+                    "name": "dateSubmitted",
+                    "value": "2023-04-19T22:00:00"
+                },
+                {
+                    "name": "approvalDate",
+                    "value": "2023-04-19T22:00:00"
+                },
+                {
+                    "name": "expirationDate",
+                    "value": "2040-04-19T22:00:00"
+                },
+                {
+                    "name": "systemType",
+                    "value": "General Support System"
+                },
+                {
+                    "name": "overallCategorization",
+                    "value": "Moderate"
+                },
+                {
+                    "name": "createdBy",
+                    "value": "[object Object]"
+                },
+                {
+                    "name": "createdById",
+                    "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                },
+                {
+                    "name": "dateCreated",
+                    "value": "2023-04-20T14:58:59.7814998"
+                },
+                {
+                    "name": "lastUpdatedById",
+                    "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                },
+                {
+                    "name": "dateLastUpdated",
+                    "value": "2023-04-20T14:58:59.7815633"
+                },
+                {
+                    "name": "tenantsId",
+                    "value": "1"
+                }
+            ],
+            "system-name": "Juice Shop SSP",
+            "description": "",
+            "date-authorized": "2023-04-19+02:00",
+            "security-sensitivity-level": "fips-199-moderate",
+            "security-impact-level": {
+                "security-objective-availability": "fips-199-moderate",
+                "security-objective-confidentiality": "fips-199-moderate",
+                "security-objective-integrity": "fips-199-moderate"
+            },
+            "system-information": {
+                "information-types": [],
+                "props": []
+            },
+            "status": {
+                "state": "operational"
+            }
+        },
+        "system-implementation": {
+            "props": [
+                {
+                    "name": "users-internal",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": 0
+                },
+                {
+                    "name": "users-external",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": 0
+                },
+                {
+                    "name": "users-internal-future",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": 0
+                },
+                {
+                    "name": "users-external-future",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": 0
+                }
+            ],
+            "leveraged-authorizations": [],
+            "users": [
+                {
+                    "uuid": "2029e2ff-4265-4108-8f01-8b8f16603214",
+                    "title": "Ejlali, Nazanin",
+                    "description": "Created By"
+                },
+                {
+                    "uuid": "2029e2ff-4265-4108-8f01-8b8f16603214",
+                    "title": "Ejlali, Nazanin",
+                    "description": "Authorizing official (AO)"
+                },
+                {
+                    "uuid": "2029e2ff-4265-4108-8f01-8b8f16603214",
+                    "title": "Ejlali, Nazanin",
+                    "description": "Information System Security Officer (ISSO)"
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                    "type": "default",
+                    "title": "THE SYSTEM",
+                    "description": "Default component for the System Security Plan (SSP)",
+                    "status": ""
+                },
+                {
+                    "uuid": "38844221-f3fa-4a34-bbf9-da855a114df6",
+                    "type": "the-system",
+                    "title": "Juice Shop SSP",
+                    "description": "",
+                    "status": {
+                        "state": "operational"
+                    }
+                }
+            ]
+        },
+        "control-implementation": {
+            "description": "Implemented Requirements for Juice Shop SSP",
+            "implemented-requirements": [
+                {
+                    "by-components": [
+                        {
+                            "uuid": "51ea94b3-02c3-4c7d-9146-4713f8923579",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 73,
+                    "uuid": "0cebb8dc-6006-4017-bdcb-4d6a855b2d67",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "3"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "0cebb8dc-6006-4017-bdcb-4d6a855b2d67"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "73"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7042292"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7042301"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "DE.CM-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "DE.CM-1: The network is monitored to detect potential cybersecurity events"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Security Continuous Monitoring (DE.CM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "D1337FB2-419C-4CE8-A35F-8831C6F7E812"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "3ab3ed9b-2aaf-4300-afc7-ccaa72055ddf",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 78,
+                    "uuid": "2ebccd52-f9b8-4f43-b909-104f2ef00a11",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "4"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "2ebccd52-f9b8-4f43-b909-104f2ef00a11"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "78"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7043172"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7043175"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "DE.CM-6"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "DE.CM-6: External service provider activity is monitored to detect potential cybersecurity events"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Security Continuous Monitoring (DE.CM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "7C3ACD86-5689-42F6-BA22-FFAB08B5DC3A"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "c08cc414-0eba-4544-8ec4-58d9ed22e2ed",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 2,
+                    "uuid": "346c5d12-dcd6-4a35-8b92-e94a85316c25",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "6"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "346c5d12-dcd6-4a35-8b92-e94a85316c25"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "2"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7045187"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7045189"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.AM-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.AM-2: Software platforms and applications within the organization are inventoried"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Asset Management (ID.AM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "C763D791-0335-4190-AA48-919BE418C0F3"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "8c11c564-b384-4e53-957e-420e6e20c2aa",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 1,
+                    "uuid": "1c849e78-6971-4cd9-ade9-101467566009",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "5"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "1c849e78-6971-4cd9-ade9-101467566009"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7044187"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7044189"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.AM-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.AM-1: Physical devices and systems within the organization are inventoried"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Asset Management (ID.AM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "81EB9113-F1DB-444D-A567-C3CCD55DAC83"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "8499816c-8cc1-46da-83a5-9ee0ab05eb35",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 3,
+                    "uuid": "9e8de109-4ec2-467e-ab2f-beee81383c1e",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "7"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "9e8de109-4ec2-467e-ab2f-beee81383c1e"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "3"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7046513"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7046515"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.AM-3"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.AM-3: Organizational communication and data flows are mapped"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Asset Management (ID.AM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "8A3B8282-9154-4BE3-8D74-088C6A7BF599"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "40e0c180-8a3f-415a-8ca9-b28c25b04b62",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 69,
+                    "uuid": "bb9cfd38-6a4d-4845-ab54-d773d42c6541",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "2"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "bb9cfd38-6a4d-4845-ab54-d773d42c6541"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "69"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7037951"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7037967"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "DE.AE-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "DE.AE-2: Detected events are analyzed to understand attack targets and methods"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Anomalies and Events (DE.AE)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "B04549B3-3BDE-41A7-84A6-7B6EC2C64DBB"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "a4b37265-e124-4df1-8e4b-b1f25cbb51e5",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 68,
+                    "uuid": "c1cffdf7-639b-4c17-9308-87d18fa1c64d",
+                    "statements": [
+                        {
+                            "statement-id": "CM-2",
+                            "uuid": "756e911e-cf0c-4b83-94ea-976a988a14b0",
+                            "props": [
+                                {
+                                    "name": "objectiveName",
+                                    "value": "CM-2"
+                                },
+                                {
+                                    "name": "objectiveDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "objectiveId",
+                                    "value": "3"
+                                },
+                                {
+                                    "name": "objectiveUUID",
+                                    "value": "756e911e-cf0c-4b83-94ea-976a988a14b0"
+                                },
+                                {
+                                    "name": "optionId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "option",
+                                    "value": "SI-4"
+                                },
+                                {
+                                    "name": "optionDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "controlId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "status",
+                                    "value": "Not Implemented"
+                                },
+                                {
+                                    "name": "dateLastAssessed",
+                                    "value": "2023-04-24T11:20:42"
+                                }
+                            ]
+                        },
+                        {
+                            "statement-id": "AC-4",
+                            "uuid": "7931add3-1d41-4aea-865d-30c3047593fa",
+                            "props": [
+                                {
+                                    "name": "objectiveName",
+                                    "value": "AC-4"
+                                },
+                                {
+                                    "name": "objectiveDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "objectiveId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "objectiveUUID",
+                                    "value": "7931add3-1d41-4aea-865d-30c3047593fa"
+                                },
+                                {
+                                    "name": "optionId",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "option",
+                                    "value": "Option 2"
+                                },
+                                {
+                                    "name": "optionDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "controlId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "status",
+                                    "value": "Fully Implemented"
+                                },
+                                {
+                                    "name": "dateLastAssessed",
+                                    "value": "2023-04-25T09:35:56.831"
+                                }
+                            ]
+                        },
+                        {
+                            "statement-id": "CA-3",
+                            "uuid": "21cf6900-8f22-4bf0-88af-b837a19740e0",
+                            "props": [
+                                {
+                                    "name": "objectiveName",
+                                    "value": "CA-3"
+                                },
+                                {
+                                    "name": "objectiveDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "objectiveId",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "objectiveUUID",
+                                    "value": "21cf6900-8f22-4bf0-88af-b837a19740e0"
+                                },
+                                {
+                                    "name": "optionId",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "option",
+                                    "value": "Option 2"
+                                },
+                                {
+                                    "name": "optionDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "controlId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "status",
+                                    "value": "Fully Implemented"
+                                },
+                                {
+                                    "name": "dateLastAssessed",
+                                    "value": "2023-04-25T09:37:05.456"
+                                }
+                            ]
+                        },
+                        {
+                            "statement-id": "SI-4",
+                            "uuid": "e8e2fe87-61b3-4c03-a451-052319f7420b",
+                            "props": [
+                                {
+                                    "name": "objectiveName",
+                                    "value": "SI-4"
+                                },
+                                {
+                                    "name": "objectiveDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "objectiveId",
+                                    "value": "4"
+                                },
+                                {
+                                    "name": "objectiveUUID",
+                                    "value": "e8e2fe87-61b3-4c03-a451-052319f7420b"
+                                },
+                                {
+                                    "name": "optionId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "option",
+                                    "value": "SI-4"
+                                },
+                                {
+                                    "name": "optionDescription",
+                                    "value": "NIST SP 800-53 Rev. 4"
+                                },
+                                {
+                                    "name": "controlId",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "status",
+                                    "value": "Not Implemented"
+                                },
+                                {
+                                    "name": "dateLastAssessed",
+                                    "value": "2023-04-25T09:37:21.281"
+                                }
+                            ]
+                        }
+                    ],
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "1"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "inheritable",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "c1cffdf7-639b-4c17-9308-87d18fa1c64d"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "68"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.5996833"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-25T10:12:07.0131447"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "DE.AE-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "DE.AE-1: A baseline of network operations and expected data flows for users and systems is established and managed"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Anomalies and Events (DE.AE)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "20DA5D90-4D36-4EB7-9DB3-245BA23DE86A"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "e1fdb224-c0b7-4317-a582-001fcdb86506",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 5,
+                    "uuid": "a7e94f8c-b551-4243-9e89-177a399e2954",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "9"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "a7e94f8c-b551-4243-9e89-177a399e2954"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "5"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7047651"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7047653"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.AM-5"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.AM-5: Resources (e.g., hardware, devices, data, time, personnel, and software) are prioritized based on their classification, criticality, and business value"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Asset Management (ID.AM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "650743E8-4E0F-48DF-9100-241BD3BAE9C2"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "30ebfed0-6b33-464b-933d-edb9eef7d7a0",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 4,
+                    "uuid": "214edeee-4bbb-4877-a26b-c0e3db1f2e0c",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "8"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "214edeee-4bbb-4877-a26b-c0e3db1f2e0c"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "4"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7047061"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7047063"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.AM-4"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.AM-4: External information systems are catalogued"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Asset Management (ID.AM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "4036C062-0ADF-40D2-8627-E82A8F4BA12E"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "d1b932b3-f0a6-4b75-ae2e-fb79fb1d0fcf",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 7,
+                    "uuid": "df45005e-44e0-4dfb-942a-5a34fa78499f",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "10"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "df45005e-44e0-4dfb-942a-5a34fa78499f"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "7"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7048198"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7048199"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.BE-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.BE-1: The organization’s role in the supply chain is identified and communicated"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Business Environment (ID.BE)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "9898FDE5-8A6A-42C0-96B9-2177BCFEDC34"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "d597713a-2173-49b8-8bbd-e0fb1c586682",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 15,
+                    "uuid": "4ca516d8-8146-41c9-b78d-0d72e10f40d8",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "12"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "4ca516d8-8146-41c9-b78d-0d72e10f40d8"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "15"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7049299"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7049301"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.RA-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.RA-1: Asset vulnerabilities are identified and documented"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Risk Assessment (ID.RA)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "5A276BF3-6145-44D2-A240-A25F073DC990"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "8dc35001-2abf-4dab-9c2a-eff362ab2430",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 108,
+                    "uuid": "9f940fbc-46ca-4172-99ce-4adf5fb16662",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "11"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "9f940fbc-46ca-4172-99ce-4adf5fb16662"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "108"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7048748"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7048752"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.GV-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.GV-1: Organizational cybersecurity policy is established and communicated"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Governance (ID.GV)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "985e2a58-0d39-4445-bd39-d1ae972a30e2"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "91ab4421-1a52-42d5-9058-3a0ae9d8e95e",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 16,
+                    "uuid": "caa12932-fcb1-4dc7-810b-8cd8b57d12cd",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "13"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "caa12932-fcb1-4dc7-810b-8cd8b57d12cd"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "16"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7049995"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7049997"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.RA-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.RA-2: Cyber threat intelligence is received from information sharing forums and sources"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Risk Assessment (ID.RA)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "F4832FFA-531B-4FB8-9615-D38948E63550"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "6cba4682-9bfb-4b19-b2b9-bf6d089cb332",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 17,
+                    "uuid": "87e08b41-0840-4680-aa60-a4ba3e5783d0",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "14"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "87e08b41-0840-4680-aa60-a4ba3e5783d0"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "17"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7051696"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7051699"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.RA-3"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.RA-3: Threats, both internal and external, are identified and documented"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Risk Assessment (ID.RA)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "5DED3FFC-88FD-4373-8B00-2BBD543100E0"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "1d872d99-074d-4a5a-b49f-e151395d9f4d",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 19,
+                    "uuid": "d471442d-331b-4f6e-8fb2-3ce005544160",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "15"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "d471442d-331b-4f6e-8fb2-3ce005544160"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "19"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7052753"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7052755"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.RA-5"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.RA-5: Threats, vulnerabilities, likelihoods, and impacts are used to determine risk"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Risk Assessment (ID.RA)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "37F2DFC7-E7EF-4911-9998-D7C979F1CD32"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "9b004b87-f039-421e-bce6-dd95d6164811",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 31,
+                    "uuid": "2df89531-72df-4926-9718-0de365a8328d",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "19"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "2df89531-72df-4926-9718-0de365a8328d"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "31"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.705423"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7054231"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.AC-3"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.AC-3: Remote access is managed"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Identity Management, Authentication and Access Control (PR.AC)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "9504A204-AFA0-49DF-BCDC-3FA0939FFDD1"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "3120e7d5-ae1e-426a-8b1a-c88dcecc56a3",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 32,
+                    "uuid": "190b38a9-1055-4a1e-bac0-6b54cc2e8597",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "20"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "190b38a9-1055-4a1e-bac0-6b54cc2e8597"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "32"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7054521"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7054522"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.AC-4"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.AC-4: Access permissions and authorizations are managed, incorporating the principles of least privilege and separation of duties"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Identity Management, Authentication and Access Control (PR.AC)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "046FC5D9-23BC-42A3-93AA-915F5057E1C3"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "f285b47d-2c8a-4efe-b950-048d51ee21e3",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 22,
+                    "uuid": "9ae41d79-4cbd-495f-a67d-852f69f53c86",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "17"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "9ae41d79-4cbd-495f-a67d-852f69f53c86"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "22"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7053392"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7053394"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.RM-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.RM-2: Organizational risk tolerance is determined and clearly expressed"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Risk Management Strategy (ID.RM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "C5BF5CF4-A8F7-4BED-B3C2-0BE1AD492355"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "de66fe5a-46e8-4dde-8bee-8917b353a664",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 29,
+                    "uuid": "7b9dd1c8-a1d2-4ac6-b16e-bfedb87f0e1f",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "18"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "7b9dd1c8-a1d2-4ac6-b16e-bfedb87f0e1f"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "29"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7053698"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7053699"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.AC-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.AC-1: Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users and processes"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Identity Management, Authentication and Access Control (PR.AC)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "361924C4-B278-4D2E-8CBB-BB083367D039"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "28ec401a-a83f-4616-88d9-b46a7f696101",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 21,
+                    "uuid": "15aebb8f-9a2b-49a2-b61a-6455dbfcc654",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "16"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "15aebb8f-9a2b-49a2-b61a-6455dbfcc654"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "21"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7053092"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7053093"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "ID.RM-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "ID.RM-1: Risk management processes are established, managed, and agreed to by organizational stakeholders"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Risk Management Strategy (ID.RM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "E05C03B2-17E2-41EE-8DA0-A492B6979580"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "03292613-8ecf-41f2-abe0-3d852a13c083",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 37,
+                    "uuid": "651e768c-a31f-4397-9418-2055376ae328",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "21"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "651e768c-a31f-4397-9418-2055376ae328"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "37"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7054835"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7054836"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.AT-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.AT-2: Privileged users understand their roles and responsibilities"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Awareness and Training (PR.AT)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "2B77D9C2-91DB-4D85-ADB1-4E8E22B84862"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "15d7f3a1-0b01-43aa-a6ff-fdafa9c7c18d",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 41,
+                    "uuid": "2f48a7d3-ecf3-49d4-b3d0-fe7da818280c",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "22"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "2f48a7d3-ecf3-49d4-b3d0-fe7da818280c"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "41"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.705512"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7055122"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.DS-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.DS-1: Data-at-rest is protected"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Data Security (PR.DS)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "C1179121-BF18-4E96-B475-DD56A4D37DBD"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "8dfc850d-f5f7-42c7-a3d8-a77cf33e2f2d",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 42,
+                    "uuid": "b7c1c65c-9e87-4e43-a5ba-3dc57f425a19",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "23"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "b7c1c65c-9e87-4e43-a5ba-3dc57f425a19"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "42"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7055418"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7055419"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.DS-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.DS-2: Data-in-transit is protected"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Data Security (PR.DS)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "28969DD7-8DB7-4DE5-995C-487700272EBE"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "d797d5b5-be63-49ef-9095-aec4f0261115",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 45,
+                    "uuid": "42799667-98d6-4cd0-af5f-f41440c3fd82",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "24"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "42799667-98d6-4cd0-af5f-f41440c3fd82"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "45"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7055705"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7055707"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.DS-5"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.DS-5: Protections against data leaks are implemented"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Data Security (PR.DS)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "C6DB67B4-BF3C-4A11-B641-AB9D2CAAABAA"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "a91d0cd9-cc45-4ec2-837e-71b3b685f7bf",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 49,
+                    "uuid": "770648ad-43c5-45b0-b172-36ebbd67bf9b",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "25"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "770648ad-43c5-45b0-b172-36ebbd67bf9b"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "49"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7055994"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7055995"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.IP-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.IP-1: A baseline configuration of information technology/industrial control systems is created and maintained incorporating security principles"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Information Protection Processes and Procedures (PR.IP)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "E0057EA7-06FE-49F3-A264-C1E27A684A6C"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "0f6787d5-dd4e-46cd-ba02-816eeb4620a4",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 58,
+                    "uuid": "1495f980-ecbe-485a-be32-98d7385e51bc",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "26"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "1495f980-ecbe-485a-be32-98d7385e51bc"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "58"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.705627"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7056271"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.IP-10"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.IP-10: Response and recovery plans are tested"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Information Protection Processes and Procedures (PR.IP)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "EDA92D1A-1F7A-4F4D-8219-3E11A02A3118"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "0a995263-43e6-4c42-8f57-2eeff5b51894",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 59,
+                    "uuid": "6d7a26da-57b6-4ef4-9122-5c9fa7197d58",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "27"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "6d7a26da-57b6-4ef4-9122-5c9fa7197d58"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "59"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7056558"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7056559"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.IP-11"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.IP-11: Cybersecurity is included in human resources practices"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Information Protection Processes and Procedures (PR.IP)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "73EAEA5F-C2E2-4D94-B953-53C37BE0E59A"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "10f582e9-18f8-45b3-a3b4-ac4514693adc",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 63,
+                    "uuid": "60729b6c-2a35-4d42-add2-0c9f95e472e4",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "29"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "60729b6c-2a35-4d42-add2-0c9f95e472e4"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "63"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7057117"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7057118"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.PT-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.PT-1: Audit/log records are determined, documented, implemented, and reviewed in accordance with policy"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Protective Technology (PR.PT)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "8E3083F5-9C23-4D67-8D07-97A69961528F"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "0d3e2859-8a66-4df3-a37a-2d28523f5ec0",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 65,
+                    "uuid": "9213c045-1a27-4f51-bba0-5bee608bc8e1",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "30"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "9213c045-1a27-4f51-bba0-5bee608bc8e1"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "65"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7057393"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7057394"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.PT-3"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.PT-3: The principle of least functionality is incorporated by configuring systems to provide only essential capabilities"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Protective Technology (PR.PT)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "EE48A77C-5430-4D4A-ACB5-A876C3F4A36E"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "59b68b6d-9514-4101-81af-60436dfc08d5",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 62,
+                    "uuid": "1df8f559-7de9-43da-84ac-38a710304454",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "28"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "1df8f559-7de9-43da-84ac-38a710304454"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "62"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7056835"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7056835"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "PR.MA-2"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "PR.MA-2: Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Maintenance (PR.MA)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "9087AA3F-782B-4076-8E75-8AF41011E87D"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "138ee059-be85-458b-8e86-553b2eb46a3c",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 102,
+                    "uuid": "8337d513-bf6f-479e-8ab0-3ade4918b623",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "32"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "8337d513-bf6f-479e-8ab0-3ade4918b623"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "102"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7058006"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7058007"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RC.RP-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RC.RP-1: Recovery plan is executed during or after a cybersecurity incident"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Recovery Planning (RC.RP)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "44862AD7-3FF2-43C6-8DF0-6EAEB55B9414"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "41242c40-b222-4457-9a76-a85bc3ea532f",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 103,
+                    "uuid": "bbe7f76b-bfd1-4d4a-b946-ecbf85b29ff5",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "31"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "bbe7f76b-bfd1-4d4a-b946-ecbf85b29ff5"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "103"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7057724"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7057725"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RC.IM-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RC.IM-1: Recovery plans incorporate lessons learned"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Improvements (RC.IM)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "EC301451-4BD7-412C-A4EA-5FABCA9173EA"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "3a8cc730-b399-470d-ad6b-4853985e9d7f",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 92,
+                    "uuid": "a06b909a-176e-4cb4-9941-690d30837ae8",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "33"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "a06b909a-176e-4cb4-9941-690d30837ae8"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "92"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7058298"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7058299"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RS.AN-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RS.AN-1: Notifications from detection systems are investigated"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Analysis (RS.AN)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "E2A998D9-EA1B-480C-BDA5-B4181DE58D11"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "8376f1cd-8c66-4656-86a9-d2bba984c4a0",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 89,
+                    "uuid": "51fa2e97-fe01-4e41-9b35-4b21f9599279",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "35"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "51fa2e97-fe01-4e41-9b35-4b21f9599279"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "89"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7058858"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7058859"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RS.CO-3"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RS.CO-3: Information is shared consistent with response plans"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Communications (RS.CO)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "3C1BD837-2FA2-4F4A-A449-06DB9DEA5C8A"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "8819e07a-abc6-488d-9ab3-49c8828534a6",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 97,
+                    "uuid": "f6f9f69a-42e2-46aa-899b-61bad2b6db43",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "36"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "f6f9f69a-42e2-46aa-899b-61bad2b6db43"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "97"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7059134"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7059136"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RS.MI-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RS.MI-1: Incidents are contained"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Mitigation (RS.MI)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "98F401B5-42D6-4586-AEFB-0240DF4F34B7"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "71fee5a5-799b-47cd-bbed-a7e13ed38b7b",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 87,
+                    "uuid": "5517437b-616b-4d10-8818-b3dc319f7773",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "34"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "5517437b-616b-4d10-8818-b3dc319f7773"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "87"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7058578"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.7058579"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RS.CO-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RS.CO-1: Personnel know their roles and order of operations when a response is needed"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Communications (RS.CO)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "E8B2CA13-3AC7-449C-8349-7EE7EE7F120D"
+                        }
+                    ]
+                },
+                {
+                    "by-components": [
+                        {
+                            "uuid": "455816ec-5549-4e8d-ba59-dfb4f19c21e3",
+                            "component-uuid": "6f4f8ef1-defa-41ec-aeee-60bd496adfb1",
+                            "description": "THE SYSTEM"
+                        }
+                    ],
+                    "control-id": 86,
+                    "uuid": "ff32bf08-1c7f-4cc8-826c-e1f59861a009",
+                    "props": [
+                        {
+                            "name": "id",
+                            "value": "37"
+                        },
+                        {
+                            "name": "isPublic",
+                            "value": "true"
+                        },
+                        {
+                            "name": "uuid",
+                            "value": "ff32bf08-1c7f-4cc8-826c-e1f59861a009"
+                        },
+                        {
+                            "name": "controlOwnerId",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "status",
+                            "value": "Not Implemented"
+                        },
+                        {
+                            "name": "securityPlanID",
+                            "value": "1"
+                        },
+                        {
+                            "name": "controlID",
+                            "value": "86"
+                        },
+                        {
+                            "name": "tenantsId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentId",
+                            "value": "1"
+                        },
+                        {
+                            "name": "parentModule",
+                            "value": "securityplans"
+                        },
+                        {
+                            "name": "createdById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateCreated",
+                            "value": "2023-04-20T15:00:19.7059419"
+                        },
+                        {
+                            "name": "lastUpdatedById",
+                            "value": "2029e2ff-4265-4108-8f01-8b8f16603214"
+                        },
+                        {
+                            "name": "dateLastUpdated",
+                            "value": "2023-04-20T15:00:19.705942"
+                        },
+                        {
+                            "name": "control-id",
+                            "value": "RS.RP-1"
+                        },
+                        {
+                            "name": "control-title",
+                            "value": "RS.RP-1: Response plan is executed during or after an incident"
+                        },
+                        {
+                            "name": "control-family",
+                            "value": "Response Planning (RS.RP)"
+                        },
+                        {
+                            "name": "parent-control-uuid",
+                            "value": "23A22DCB-C05E-4EFA-9BEF-FDF1E6E8FA9E"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
